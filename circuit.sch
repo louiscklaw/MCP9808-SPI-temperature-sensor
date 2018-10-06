@@ -1,0 +1,308 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCP9808:MCP9808 U1
+U 1 1 5BB8DA95
+P 7100 3500
+F 0 "U1" H 7100 4105 50  0000 C CNN
+F 1 "MCP9808" H 7100 4014 50  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 7100 3500 50  0001 C CNN
+F 3 "" H 7100 3500 50  0001 C CNN
+F 4 "TSSOP-8" H 7100 3923 50  0000 C CNN "Field4"
+	1    7100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5BB8DB0E
+P 6350 3850
+F 0 "#PWR0101" H 6350 3600 50  0001 C CNN
+F 1 "GND" H 6355 3677 50  0000 C CNN
+F 2 "" H 6350 3850 50  0001 C CNN
+F 3 "" H 6350 3850 50  0001 C CNN
+	1    6350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5BB8DB48
+P 6250 3350
+F 0 "R1" V 6043 3350 50  0000 C CNN
+F 1 "103" V 6134 3350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6180 3350 50  0001 C CNN
+F 3 "~" H 6250 3350 50  0001 C CNN
+F 4 "0805" H 0   0   50  0001 C CNN "Field4"
+	1    6250 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5BB8DBF8
+P 6250 3450
+F 0 "R2" V 6043 3450 50  0000 C CNN
+F 1 "103" V 6134 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6180 3450 50  0001 C CNN
+F 3 "~" H 6250 3450 50  0001 C CNN
+F 4 "0805" H 0   0   50  0001 C CNN "Field4"
+	1    6250 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5BB8DC82
+P 7950 3550
+F 0 "R4" V 7743 3550 50  0000 C CNN
+F 1 "103" V 7834 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7880 3550 50  0001 C CNN
+F 3 "~" H 7950 3550 50  0001 C CNN
+F 4 "0805" H 0   0   50  0001 C CNN "Field4"
+	1    7950 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5BB8DC88
+P 7950 3650
+F 0 "R5" V 7743 3650 50  0000 C CNN
+F 1 "103" V 7834 3650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7880 3650 50  0001 C CNN
+F 3 "~" H 7950 3650 50  0001 C CNN
+F 4 "0805" H 0   0   50  0001 C CNN "Field4"
+	1    7950 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5BB8DCA2
+P 7950 3450
+F 0 "R3" V 7743 3450 50  0000 C CNN
+F 1 "103" V 7834 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7880 3450 50  0001 C CNN
+F 3 "~" H 7950 3450 50  0001 C CNN
+F 4 "0805" H 0   0   50  0001 C CNN "Field4"
+	1    7950 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDD #PWR0102
+U 1 1 5BB8DD44
+P 7750 3250
+F 0 "#PWR0102" H 7750 3100 50  0001 C CNN
+F 1 "VDD" H 7767 3423 50  0000 C CNN
+F 2 "" H 7750 3250 50  0001 C CNN
+F 3 "" H 7750 3250 50  0001 C CNN
+	1    7750 3250
+	1    0    0    -1  
+$EndComp
+Text Label 5850 3550 0    50   ~ 0
+ALERT
+$Comp
+L power:VDD #PWR0103
+U 1 1 5BB8DF21
+P 6000 3100
+F 0 "#PWR0103" H 6000 2950 50  0001 C CNN
+F 1 "VDD" H 6017 3273 50  0000 C CNN
+F 2 "" H 6000 3100 50  0001 C CNN
+F 3 "" H 6000 3100 50  0001 C CNN
+	1    6000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5BB8DF38
+P 8300 3850
+F 0 "#PWR0104" H 8300 3600 50  0001 C CNN
+F 1 "GND" H 8305 3677 50  0000 C CNN
+F 2 "" H 8300 3850 50  0001 C CNN
+F 3 "" H 8300 3850 50  0001 C CNN
+	1    8300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3100 6000 3350
+Wire Wire Line
+	6000 3450 6100 3450
+Wire Wire Line
+	6100 3350 6000 3350
+Connection ~ 6000 3350
+Wire Wire Line
+	6000 3350 6000 3450
+Wire Wire Line
+	6400 3350 6600 3350
+Wire Wire Line
+	6400 3450 6600 3450
+Wire Wire Line
+	7600 3450 7800 3450
+Wire Wire Line
+	7600 3550 7800 3550
+Wire Wire Line
+	7600 3650 7800 3650
+Wire Wire Line
+	8100 3450 8300 3450
+Wire Wire Line
+	8300 3450 8300 3550
+Wire Wire Line
+	8100 3550 8300 3550
+Connection ~ 8300 3550
+Wire Wire Line
+	8300 3550 8300 3650
+Wire Wire Line
+	8100 3650 8300 3650
+Connection ~ 8300 3650
+Wire Wire Line
+	8300 3650 8300 3850
+$Comp
+L Device:C C1
+U 1 1 5BB8E720
+P 3050 3350
+F 0 "C1" H 3165 3441 50  0000 L CNN
+F 1 "105" H 3165 3350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3088 3200 50  0001 C CNN
+F 3 "~" H 3050 3350 50  0001 C CNN
+F 4 "0805" H 3165 3259 50  0000 L CNN "Field4"
+	1    3050 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3500 3050 3850
+Wire Wire Line
+	5850 3550 6600 3550
+Wire Wire Line
+	6350 3850 6350 3650
+Wire Wire Line
+	6350 3650 6600 3650
+Wire Wire Line
+	7600 3350 7750 3350
+Wire Wire Line
+	7750 3350 7750 3250
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 5BB8FA2F
+P 4500 3500
+F 0 "J1" H 4420 4017 50  0000 C CNN
+F 1 "Conn_01x08" H 4420 3926 50  0000 C CNN
+F 2 "footprint-lib:Pin_Header_Straight_1x08_Pitch2.54mm" H 4500 3500 50  0001 C CNN
+F 3 "~" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	-1   0    0    -1  
+$EndComp
+Text Label 6450 3350 0    50   ~ 0
+SDA
+Text Label 6450 3450 0    50   ~ 0
+SCL
+Text Label 7650 3450 0    50   ~ 0
+A0
+Text Label 7650 3550 0    50   ~ 0
+A1
+Text Label 7650 3650 0    50   ~ 0
+A2
+Text Label 5400 3900 2    50   ~ 0
+VDD
+Wire Wire Line
+	5400 3900 4700 3900
+Text Label 5400 3600 2    50   ~ 0
+A2
+Wire Wire Line
+	5400 3600 4700 3600
+Text Label 5400 3700 2    50   ~ 0
+A1
+Wire Wire Line
+	5400 3700 4700 3700
+Text Label 5400 3800 2    50   ~ 0
+A0
+Wire Wire Line
+	5400 3800 4700 3800
+Text Label 5400 3500 2    50   ~ 0
+ALERT
+Wire Wire Line
+	5400 3500 4700 3500
+Text Label 5400 3400 2    50   ~ 0
+SDA
+Wire Wire Line
+	5400 3400 4700 3400
+Text Label 5400 3300 2    50   ~ 0
+SCL
+Wire Wire Line
+	5400 3300 4700 3300
+Text Label 5400 3200 2    50   ~ 0
+GND
+Wire Wire Line
+	5400 3200 4700 3200
+$Comp
+L power:VDD #PWR0105
+U 1 1 5BB947B5
+P 3550 2800
+F 0 "#PWR0105" H 3550 2650 50  0001 C CNN
+F 1 "VDD" H 3567 2973 50  0000 C CNN
+F 2 "" H 3550 2800 50  0001 C CNN
+F 3 "" H 3550 2800 50  0001 C CNN
+	1    3550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5BB947BB
+P 3550 3950
+F 0 "#PWR0106" H 3550 3700 50  0001 C CNN
+F 1 "GND" H 3555 3777 50  0000 C CNN
+F 2 "" H 3550 3950 50  0001 C CNN
+F 3 "" H 3550 3950 50  0001 C CNN
+	1    3550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5BB952B1
+P 3550 3100
+F 0 "R6" H 3620 3191 50  0000 L CNN
+F 1 "102" H 3620 3100 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3480 3100 50  0001 C CNN
+F 3 "~" H 3550 3100 50  0001 C CNN
+F 4 "0805" H 3620 3009 50  0000 L CNN "Field4"
+	1    3550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5BB95371
+P 3550 3500
+F 0 "D1" V 3588 3383 50  0000 R CNN
+F 1 "LED" V 3497 3383 50  0000 R CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 3550 3500 50  0001 C CNN
+F 3 "~" H 3550 3500 50  0001 C CNN
+F 4 "0805" H -300 200 50  0001 C CNN "Field4"
+	1    3550 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 3650 3550 3850
+Wire Wire Line
+	3550 3250 3550 3350
+Wire Wire Line
+	3550 2800 3550 2900
+Wire Wire Line
+	3050 2900 3550 2900
+Wire Wire Line
+	3050 2900 3050 3200
+Connection ~ 3550 2900
+Wire Wire Line
+	3550 2900 3550 2950
+Wire Wire Line
+	3550 3850 3050 3850
+Connection ~ 3550 3850
+Wire Wire Line
+	3550 3850 3550 3950
+$EndSCHEMATC

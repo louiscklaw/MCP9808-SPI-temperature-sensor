@@ -1,0 +1,22 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Field4
+1,Unpolarized capacitor,C,C1,105,C_0805_HandSoldering,1,~,0805
+2,LED generic,LED,D1,LED,LED_0805_HandSoldering,1,~,0805
+3,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x08,J1,Conn_01x08,Pin_Header_Straight_1x08_Pitch2.54mm,1,~,
+4,Resistor,R,R6,102,R_0805_HandSoldering,1,~,0805
+5,Resistor,R,R1 R2 R3 R4 R5,103,R_0805_HandSoldering,5,~,0805
+6,,MCP9808,U1,MCP9808,TSSOP-8_4.4x3mm_Pitch0.65mm,1,,TSSOP-8
+
+
+
+
+
+Component Groups:,6
+Component Count:,10
+Fitted Components:,10
+Number of PCBs:,1
+Total components:,10
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Sun Oct  7 01:20:00 2018
+Schematic Source:,/home/logic/_workspace/kicad/MCP9808-SPI-temperature-sensor/circuit/circuit.sch
+KiCad Version:,Eeschema 5.0.0-fee4fd1~66~ubuntu18.04.1
