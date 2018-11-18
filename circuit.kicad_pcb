@@ -514,8 +514,8 @@
     )
   )
 
-  (gr_text "REV 1.0" (at 26.0985 37.719 90) (layer F.Cu)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  (gr_text "REV 1.0" (at 25.908 38.608 90) (layer F.SilkS) (tstamp 5BBB1F4A)
+    (effects (font (size 1.2 1.2) (thickness 0.25)))
   )
   (gr_line (start 24.403 27.7495) (end 49.403 27.7495) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 49.403 27.7495) (end 49.403 42.512) (layer Edge.Cuts) (width 0.2))
